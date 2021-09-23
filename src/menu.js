@@ -41,6 +41,12 @@ function saveSelectedTheme() {
     toggle.checked = true;
     body.classList.add(Theme.DARK);
     }
+
+  else {
+      toggle.checked = false;
+      body.classList.remove(Theme.DARK)
+      body.classList.add(Theme.LIGHT)
+    }
     
 }
 
